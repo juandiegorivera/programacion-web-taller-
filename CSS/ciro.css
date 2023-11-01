@@ -1,0 +1,1448 @@
+body{
+    background: linear-gradient(135deg,rgb(0, 0, 0), rgb(255, 251, 0),rgb(0, 0, 0));
+    color: aliceblue;
+}
+
+#primercaja{
+    border: 1px solid #5f1919;
+    position: relative;
+    display: grid;
+    width: 97vw;
+    height: 102.5vh;
+    grid-template-columns:  10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    margin-bottom: 1em;
+}
+
+#segundacaja{
+    border: 1px solid #5f1919;
+    position: relative;
+    display: grid;
+    width: 97vw;
+    height: 137.5vh;
+    grid-template-columns:  10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
+    margin-bottom: 1em;
+}
+
+#fotop{
+    position: absolute;
+    grid-area: 1 / 1 / 10 / span 3 ; 
+    display: flex;
+    flex-direction: column;
+    column-count: 1;
+}
+
+
+#tarjetas{
+    border: 1px solid #5f1919;
+    grid-area: 4 / 1 / span 10 / span 3 ; 
+}
+#nombre{
+    border: 1px solid #5f1919;
+    grid-area: 1 / 4 / span 6 / span 7 ; /* comienza en la fila 1 de la columna 1 y abarca 1 fila y 3 columnas */
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 350px;
+    width: 923px;
+    right: -0.4%;
+}
+
+
+.info{
+    border: 1px solid #5f1919;
+    margin-top: 1em;
+    height: 19em;
+    width: 50em;
+}
+.origen{
+    border: 1px solid #5f1919;
+    margin-top: 1em;
+    height: 18.5em;
+    width: 1em;
+} 
+
+.datos{
+    border: 1px solid #5f1919;
+    margin-top: 1em;
+    height: 18em;
+    width: 1em;
+}
+
+h1{
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    top: -0.8em;
+}
+
+#nombre2{
+    border: 1px solid #5f1919;
+    grid-area: 1 / 4 / span 6 / span 7 ; /* comienza en la fila 1 de la columna 1 y abarca 1 fila y 3 columnas */
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 923px;
+    height: 526px;
+    left: 0.4%;
+}
+
+
+#nombre3{
+    border: 1px solid #5f1919;
+    grid-area: 7 / 4 / span 4 / span 7 ; 
+    position: relative;
+    display: flex;
+    top: -7%;
+    left: -43%;
+    justify-content: space-around;
+    align-items: center;
+    height: 280px;
+    width: 1325px;
+}
+
+#nombre4{
+    border: 1px solid #5f1919;
+    grid-area: 7 / 4 / span 4 / span 7 ; 
+    position: relative;
+    display: flex;
+    top: 10%;
+    left: -43%;
+    justify-content: space-around;
+    align-items: center;
+    height: 300px;
+    width: 1325px;
+}
+#album{
+    border: 1px solid #5f1919;
+    margin-top: 1em;
+    height: 11.2em;
+    width: 12em;
+}
+
+.scroll-div{
+    width: 400px;
+    height: 352px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.scroll-div2{
+    border: 1px solid #5f1919;
+    width: 800px;
+    height: 400px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.scroll-div3{
+    width: 400px;
+    height: 528px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+.scroll-div4{
+    border: 1px solid #913500;
+    width: 870px;
+    height: 280px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+
+.contenedor {
+    position: relative;
+    transform: translate(-50%,-50%);
+    bottom: -20%;
+    left: -36%;
+    display: grid;
+    grid-template-rows: repeat(1, 1fr); /* Crea 4 filas de igual altura */
+    grid-template-columns: repeat(8, 1fr); /* Crea 4 columnas de igual ancho */
+    gap: 20px; /* Espacio entre las celdas */
+    width: 150px; /* Ancho del contenedor */
+    height: 150px; /* Altura del contenedor */
+}
+
+.contenedor2 {
+    position: relative;
+    transform: translate(-50%,-50%);
+    bottom: -20%;
+    left: -25%;
+    display: grid;
+    grid-template-rows: repeat(5, 1fr); /* Crea 4 filas de igual altura */
+    grid-template-columns: repeat(6, 1fr); /* Crea 4 columnas de igual ancho */
+    gap: 20px; /* Espacio entre las celdas */
+    width: 150px; /* Ancho del contenedor */
+    height: 150px; /* Altura del contenedor */
+}
+
+.celda {
+    border: 1px solid #5f1919;
+    padding: 0px ;
+    text-align: center;
+}
+
+.blog-card {
+    border: 1px solid #5f1919;
+    width: 27.5vw;
+    height: 45vh;
+    position: relative;
+    font-family: 'Droid Serif', serif;
+    color:#fff;
+    bottom: 0%;
+    left: 0%;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 3em;
+    box-shadow: 0px 10px 20px -9px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition:all 0.4s;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Miguel_%C3%81ngel_Rodr%C3%ADguez_en_2015_%28cropped%29.jpg/220px-Miguel_%C3%81ngel_Rodr%C3%ADguez_en_2015_%28cropped%29.jpg) center no-repeat;
+    background-size: 115%;
+}
+
+.blog-card a{ 
+    color:#fff;
+    text-decoration:none;
+    transition:all 0.2s
+}
+.blog-card .color-overlay {
+    background: rgba(64, 84, 94,0.5);
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+.blog-card .gradient-overlay {  
+    background-image: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.6) 21%);
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 350px;
+    left: 0;
+    z-index: 15;
+}
+.blog-card:hover{
+    box-shadow: 0px 18px 20px -9px rgba(0, 10, 30, 0.75);
+}
+.blog-card:hover .card-info {
+    opacity: 1;
+    bottom: 100px;
+}   
+.blog-card:hover .color-overlay {
+    background: rgba(64, 64, 70,0.8);
+}
+.blog-card:hover .title-content{
+    margin-top:70px
+}
+.title-content {
+    text-align: top;
+    margin: 170px 0 0 0;
+    position: relative;
+    z-index: 20;
+    width: 100%;
+    top: 45%;
+    left: 0;
+    transition:all 0.6s
+}
+
+
+.blog-card:hover h3:after{
+    animation: changeLetter 0.3s 1 linear;
+    width:80%
+}
+
+.blog-card h3,h1 {
+    font-size: 1.3em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: 'Abril Fatface', serif;
+    margin-bottom: 0;
+    display:inline-block;
+}
+.blog-card h3 a{  
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);  
+    transition:all 0.2s
+}
+.blog-card h3 a:hover{
+    text-shadow: 0px 8px 20px rgba(0, 0, 0, 0.95);
+}
+h3:after {
+    content: " ";
+    display: block; 
+    width: 10%;
+    height: 2px;
+    margin: 20px auto;
+    border: 0;
+    background: #BDA26B;
+    transition:all 0.2s
+}
+
+@keyframes changeLetter {
+    0% {
+    width: 10%;
+    }
+    100% {
+    width: 100%;
+    }
+}
+
+
+.card-info {
+    box-sizing: border-box;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    top: 1%;
+    left: 0;
+    margin: 0 auto;
+    padding: 0px 100px 20px -50px;
+    font-style: 16px;
+    line-height: 24px;
+    z-index: 20;
+    opacity: 0;
+    transition: bottom 0.64s, opacity 0.63s cubic-bezier(0.33, 0.66, 0.66, 1);
+}
+
+.card-info a{
+    display:block;
+    width:100px;
+    margin:15px auto;
+    background:#fff;
+    color:#444;
+    padding:3px 10px;
+    border-radius:2px;
+    font-size:0.8em
+}
+.card-info a:hover{
+    background: #8e7c49;
+    color:#fff;
+}
+.card-info a:hover span{
+    filter: brightness(10);
+    opacity:1
+}
+.utility-info {
+    position: relative;
+    bottom: 0px;
+    left: 0;
+    z-index: 20;
+    width:100%;
+    text-align:left
+}
+.utility-info:after{
+    content:" ";
+    background: url(https://rawcdn.githack.com/Nodws/NodPen/ffad95aa5244b4b09a3c7c1508a018959bbedb7e/postItem/licons.svg) center no-repeat;
+    background-size: 30px auto;
+    display:block;
+    opacity: 0.4;
+    position:absolute;
+    bottom:25px;
+    right:15px;
+    width:30px;
+    height:15px
+}
+.utility-info a:hover{
+    text-decoration:underline
+}
+.utility-list {
+    list-style-type: none;
+    margin: 0 0 10px 20px;
+    padding: 0;
+    width: 100%;
+
+}
+.utility-list li {
+    margin: 0 5px 0 0;
+    padding: 3px 0 15px 0px;
+    display: inline-block;
+    font-size:0.8em
+}
+
+/* fin tarjeta*/
+
+
+/* tarjeta 2*/
+.blog-card2 {
+    border: 1px solid #5f1919;
+    width: 27.5vw;
+    height: 47vh;
+    position: relative;
+    font-family: 'Droid Serif', serif;
+    color:#fff;
+    bottom: 0%;
+    left: 0%;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 3em;
+    box-shadow: 0px 10px 20px -9px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition:all 0.4s;
+    background: url(https://www.pagina12.com.ar/fotos/thumb/320/espectaculos/20110105/notas_e/na29fo08.jpg) center no-repeat;
+    background-size: 115%;
+}
+
+.blog-card2 a{ 
+    color:#fff;
+    text-decoration:none;
+    transition:all 0.2s
+}
+.blog-card2 .color-overlay2 {
+    background: rgba(64, 84, 94,0.5);
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+.blog-card2 .gradient-overlay2 {  
+    background-image: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.6) 21%);
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 350px;
+    left: 0;
+    z-index: 15;
+}
+.blog-card2:hover{
+    box-shadow: 0px 18px 20px -9px rgba(0, 10, 30, 0.75);
+}
+.blog-card2:hover .card-info2 {
+    opacity: 1;
+    bottom: 100px;
+}   
+.blog-card2:hover .color-overlay2 {
+    background: rgba(64, 64, 70,0.8);
+}
+.blog-card2:hover .title-content2{
+    margin-top:70px
+}
+.title-content2 {
+    text-align: top;
+    margin: 170px 0 0 0;
+    position: relative;
+    z-index: 20;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    transition:all 0.6s
+}
+
+
+.blog-card2:hover h3:after{
+    animation: changeLetter 0.3s 1 linear;
+    width:80%
+}
+
+.blog-card2 h3,h1 {
+    font-size: 1.3em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: 'Abril Fatface', serif;
+    margin-bottom: 0;
+    display:inline-block;
+}
+.blog-card2 h3 a{  
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);  
+    transition:all 0.2s
+}
+.blog-card2 h3 a:hover{
+    text-shadow: 0px 8px 20px rgba(0, 0, 0, 0.95);
+}
+h3:after {
+    content: " ";
+    display: block; 
+    width: 10%;
+    height: 2px;
+    margin: 20px auto;
+    border: 0;
+    background: #BDA26B;
+    transition:all 0.2s
+}
+
+@keyframes changeLetter {
+    0% {
+    width: 10%;
+    }
+    100% {
+    width: 100%;
+    }
+}
+
+
+.card-info2 {
+    box-sizing: border-box;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    top: 1%;
+    left: 0;
+    margin: 0 auto;
+    padding: 0px 100px 20px -50px;
+    font-style: 16px;
+    line-height: 24px;
+    z-index: 20;
+    opacity: 0;
+    transition: bottom 0.64s, opacity 0.63s cubic-bezier(0.33, 0.66, 0.66, 1);
+}
+
+.card-info2 a{
+    display:block;
+    width:100px;
+    margin:15px auto;
+    background:#fff;
+    color:#444;
+    padding:3px 10px;
+    border-radius:2px;
+    font-size:0.8em
+}
+.card-info2 a:hover{
+    background: #8e7c49;
+    color:#fff;
+}
+.card-info2 a:hover span{
+    filter: brightness(10);
+    opacity:1
+}
+.utility-info2 {
+    position: relative;
+    bottom: 0px;
+    left: 0;
+    z-index: 20;
+    width:100%;
+    text-align:left
+}
+.utility-info2:after{
+    content:" ";
+    background: url(https://rawcdn.githack.com/Nodws/NodPen/ffad95aa5244b4b09a3c7c1508a018959bbedb7e/postItem/licons.svg) center no-repeat;
+    background-size: 30px auto;
+    display:block;
+    opacity: 0.4;
+    position:absolute;
+    bottom:25px;
+    right:15px;
+    width:30px;
+    height:15px
+}
+.utility-info2 a:hover{
+    text-decoration:underline
+}
+.utility-list2 {
+    list-style-type: none;
+    margin: 0 0 10px 20px;
+    padding: 0;
+    width: 100%;
+
+}
+.utility-list2 li {
+    margin: 0 5px 0 0;
+    padding: 3px 0 15px 0px;
+    display: inline-block;
+    font-size:0.8em
+}
+
+/* fin de tarjeta 2*/
+
+/* tarjeta 3*/
+.blog-card3 {
+    border: 1px solid #5f1919;
+    width: 27.5vw;
+    height: 60vh;
+    position: relative;
+    font-family: 'Droid Serif', serif;
+    color:#fff;
+    bottom: 0%;
+    left: 0%;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 3em;
+    box-shadow: 0px 10px 20px -9px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition:all 0.4s;
+    background: url(https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Piti_Fern%C3%A1ndez_de_La_Franela_%28cropped%29.jpg/220px-Piti_Fern%C3%A1ndez_de_La_Franela_%28cropped%29.jpg) center no-repeat;
+    background-size: 100%;
+}
+
+.blog-card3 a{ 
+    color:#fff;
+    text-decoration:none;
+    transition:all 0.2s
+}
+.blog-card3 .color-overlay3 {
+    background: rgba(64, 84, 94,0.5);
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+.blog-card3 .gradient-overlay3 {  
+    background-image: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.6) 21%);
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 350px;
+    left: 0;
+    z-index: 15;
+}
+.blog-card3:hover{
+    box-shadow: 0px 18px 20px -9px rgba(0, 10, 30, 0.75);
+}
+.blog-card3:hover .card-info3 {
+    opacity: 1;
+    bottom: 100px;
+}   
+.blog-card3:hover .color-overlay3 {
+    background: rgba(64, 64, 70,0.8);
+}
+.blog-card3:hover .title-content3{
+    margin-top:70px
+}
+.title-content3 {
+    text-align: top;
+    margin: 170px 0 0 0;
+    position: relative;
+    z-index: 20;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    transition:all 0.6s
+}
+
+
+.blog-card3:hover h3:after{
+    animation: changeLetter 0.3s 1 linear;
+    width:80%
+}
+
+.blog-card3 h3,h1 {
+    font-size: 1.3em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: 'Abril Fatface', serif;
+    margin-bottom: 0;
+    display:inline-block;
+}
+.blog-card3 h3 a{  
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);  
+    transition:all 0.2s
+}
+.blog-card3 h3 a:hover{
+    text-shadow: 0px 8px 20px rgba(0, 0, 0, 0.95);
+}
+h3:after {
+    content: " ";
+    display: block; 
+    width: 10%;
+    height: 2px;
+    margin: 20px auto;
+    border: 0;
+    background: #BDA26B;
+    transition:all 0.2s
+}
+
+@keyframes changeLetter {
+    0% {
+    width: 10%;
+    }
+    100% {
+    width: 100%;
+    }
+}
+
+
+.card-info3 {
+    box-sizing: border-box;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    top: 5%;
+    left: 0;
+    margin: 0 auto;
+    padding: 0px 100px 20px -50px;
+    font-style: 16px;
+    line-height: 24px;
+    z-index: 20;
+    opacity: 0;
+    transition: bottom 0.64s, opacity 0.63s cubic-bezier(0.33, 0.66, 0.66, 1);
+}
+
+.card-info3 a{
+    display:block;
+    width:100px;
+    margin:15px auto;
+    background:#fff;
+    color:#444;
+    padding:3px 10px;
+    border-radius:2px;
+    font-size:0.8em
+}
+.card-info3 a:hover{
+    background: #8e7c49;
+    color:#fff;
+}
+.card-info3 a:hover span{
+    filter: brightness(10);
+    opacity:1
+}
+.utility-info3 {
+    position: relative;
+    bottom: 0px;
+    left: 0;
+    z-index: 20;
+    width:100%;
+    text-align:left
+}
+.utility-info3:after{
+    content:" ";
+    background: url(https://rawcdn.githack.com/Nodws/NodPen/ffad95aa5244b4b09a3c7c1508a018959bbedb7e/postItem/licons.svg) center no-repeat;
+    background-size: 30px auto;
+    display:block;
+    opacity: 0.4;
+    position:absolute;
+    bottom:25px;
+    right:15px;
+    width:30px;
+    height:15px
+}
+.utility-info3 a:hover{
+    text-decoration:underline
+}
+.utility-list3 {
+    list-style-type: none;
+    margin: 0 0 10px 20px;
+    padding: 0;
+    width: 100%;
+
+}
+.utility-list3 li {
+    margin: 0 5px 0 0;
+    padding: 3px 0 15px 0px;
+    display: inline-block;
+    font-size:0.8em
+}
+
+/* fin tarjeta 3*/
+
+/* tarjeta 4*/
+.blog-card4 {
+    border: 1px solid #5f1919;
+    width: 27.5vw;
+    height: 48vh;
+    position: relative;
+    font-family: 'Droid Serif', serif;
+    color:#fff;
+    bottom: 0%;
+    left: 0%;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 3em;
+    box-shadow: 0px 10px 20px -9px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition:all 0.4s;
+    background: url(https://images.pagina12.com.ar/styles/focal_content_1200x1050/public/2017-02/na31fo01_14.jpg?h=135bff45&itok=hkBhghRe) center no-repeat;
+    background-size: 100%;
+}
+
+.blog-card4 a{ 
+    color:#fff;
+    text-decoration:none;
+    transition:all 0.2s
+}
+.blog-card4 .color-overlay4 {
+    background: rgba(64, 84, 94,0.5);
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+.blog-card4 .gradient-overlay4 {  
+    background-image: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.6) 21%);
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 350px;
+    left: 0;
+    z-index: 15;
+}
+.blog-card4:hover{
+    box-shadow: 0px 18px 20px -9px rgba(0, 10, 30, 0.75);
+}
+.blog-card4:hover .card-info4 {
+    opacity: 1;
+    bottom: 100px;
+}   
+.blog-card4:hover .color-overlay4 {
+    background: rgba(64, 64, 70,0.8);
+}
+.blog-card4:hover .title-content4{
+    margin-top:70px
+}
+.title-content4 {
+    text-align: top;
+    margin: 170px 0 0 0;
+    position: relative;
+    z-index: 20;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    transition:all 0.6s
+}
+
+
+.blog-card4:hover h3:after{
+    animation: changeLetter 0.3s 1 linear;
+    width:80%
+}
+
+.blog-card4 h3,h1 {
+    font-size: 1.3em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: 'Abril Fatface', serif;
+    margin-bottom: 0;
+    display:inline-block;
+}
+.blog-card4 h3 a{  
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);  
+    transition:all 0.2s
+}
+.blog-card4 h3 a:hover{
+    text-shadow: 0px 8px 20px rgba(0, 0, 0, 0.95);
+}
+h3:after {
+    content: " ";
+    display: block; 
+    width: 10%;
+    height: 2px;
+    margin: 20px auto;
+    border: 0;
+    background: #BDA26B;
+    transition:all 0.2s
+}
+
+@keyframes changeLetter {
+    0% {
+    width: 10%;
+    }
+    100% {
+    width: 100%;
+    }
+}
+
+.card-info4 {
+    box-sizing: border-box;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    top: 5%;
+    left: 0;
+    margin: 0 auto;
+    padding: 0px 100px 20px -50px;
+    font-style: 16px;
+    line-height: 24px;
+    z-index: 20;
+    opacity: 0;
+    transition: bottom 0.64s, opacity 0.63s cubic-bezier(0.33, 0.66, 0.66, 1);
+}
+
+.card-info4 a{
+    display:block;
+    width:100px;
+    margin:15px auto;
+    background:#fff;
+    color:#444;
+    padding:3px 10px;
+    border-radius:2px;
+    font-size:0.8em
+}
+.card-info4 a:hover{
+    background: #8e7c49;
+    color:#fff;
+}
+.card-info4 a:hover span{
+    filter: brightness(10);
+    opacity:1
+}
+.utility-info4 {
+    position: relative;
+    bottom: 0px;
+    left: 0;
+    z-index: 20;
+    width:100%;
+    text-align:left
+}
+.utility-info4:after{
+    content:" ";
+    background: url(https://rawcdn.githack.com/Nodws/NodPen/ffad95aa5244b4b09a3c7c1508a018959bbedb7e/postItem/licons.svg) center no-repeat;
+    background-size: 30px auto;
+    display:block;
+    opacity: 0.4;
+    position:absolute;
+    bottom:25px;
+    right:15px;
+    width:30px;
+    height:15px
+}
+.utility-info4 a:hover{
+    text-decoration:underline
+}
+.utility-list4 {
+    list-style-type: none;
+    margin: 0 0 10px 20px;
+    padding: 0;
+    width: 100%;
+}
+.utility-list4 li {
+    margin: 0 5px 0 0;
+    padding: 3px 0 15px 0px;
+    display: inline-block;
+    font-size:0.8em
+}
+
+.blog-card5 {
+    border: 1px solid #0a0092;
+    width: 27.5vw;
+    height: 34.8vh;
+    position: relative;
+    font-family: 'Droid Serif', serif;
+    color:#fff;
+    bottom: 0%;
+    left: 0%;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 3em;
+    box-shadow: 0px 10px 20px -9px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition:all 0.4s;
+    background: url(https://cloudfront-us-east-1.images.arcpublishing.com/artear/HDP3Z74RVVBKQDTMQFF5Z4H5RA.jpg) center no-repeat;
+    background-size: 100%;
+}
+
+.blog-card5 a{ 
+    color:#fff;
+    text-decoration:none;
+    transition:all 0.2s
+}
+.blog-card5 .color-overlay5 {
+    background: rgba(64, 84, 94,0.5);
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+.blog-card5 .gradient-overlay5 {  
+    background-image: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.6) 21%);
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 350px;
+    left: 0;
+    z-index: 15;
+}
+.blog-card5:hover{
+    box-shadow: 0px 18px 20px -9px rgba(0, 10, 30, 0.75);
+}
+.blog-card5:hover .card-info5 {
+    opacity: 1;
+    bottom: 100px;
+}   
+.blog-card5:hover .color-overlay5 {
+    background: rgba(64, 64, 70,0.8);
+}
+.blog-card5:hover .title-content5{
+    margin-top:70px
+}
+.title-content5 {
+    text-align: top;
+    margin: 170px 0 0 0;
+    position: relative;
+    z-index: 20;
+    width: 100%;
+    top: 33%;
+    left: 0;
+    transition:all 0.6s
+}
+
+
+.blog-card5:hover h3:after{
+    animation: changeLetter 0.3s 1 linear;
+    width:80%
+}
+
+.blog-card5 h3,h1 {
+    font-size: 1.3em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: 'Abril Fatface', serif;
+    margin-bottom: 0;
+    display:inline-block;
+}
+.blog-card5 h3 a{  
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);  
+    transition:all 0.2s
+}
+.blog-card5 h3 a:hover{
+    text-shadow: 0px 8px 20px rgba(0, 0, 0, 0.95);
+}
+h3:after {
+    content: " ";
+    display: block; 
+    width: 10%;
+    height: 2px;
+    margin: 20px auto;
+    border: 0;
+    background: #BDA26B;
+    transition:all 0.2s
+}
+
+@keyframes changeLetter {
+    0% {
+    width: 10%;
+    }
+    100% {
+    width: 100%;
+    }
+}
+
+
+.card-info5 {
+    box-sizing: border-box;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    top: 2%;
+    left: 0;
+    margin: 0 auto;
+    padding: 0px 100px 20px -50px;
+    font-style: 16px;
+    line-height: 24px;
+    z-index: 20;
+    opacity: 0;
+    transition: bottom 0.64s, opacity 0.63s cubic-bezier(0.33, 0.66, 0.66, 1);
+}
+
+.card-info5 a{
+    display:block;
+    width:100px;
+    margin:15px auto;
+    background:#fff;
+    color:#444;
+    padding:3px 10px;
+    border-radius:2px;
+    font-size:0.8em
+}
+.card-info5 a:hover{
+    background: #8e7c49;
+    color:#fff;
+}
+.card-info5 a:hover span{
+    filter: brightness(10);
+    opacity:1
+}
+.utility-info5 {
+    position: relative;
+    bottom: 0px;
+    left: 0;
+    z-index: 20;
+    width:100%;
+    text-align:left
+}
+.utility-info5:after{
+    content:" ";
+    background: url(https://rawcdn.githack.com/Nodws/NodPen/ffad95aa5244b4b09a3c7c1508a018959bbedb7e/postItem/licons.svg) center no-repeat;
+    background-size: 30px auto;
+    display:block;
+    opacity: 0.4;
+    position:absolute;
+    bottom:25px;
+    right:15px;
+    width:30px;
+    height:15px
+}
+.utility-info5 a:hover{
+    text-decoration:underline
+}
+.utility-list5 {
+    list-style-type: none;
+    margin: 0 0 10px 20px;
+    padding: 0;
+    width: 100%;
+
+}
+.utility-list5 li {
+    margin: 0 5px 0 0;
+    padding: 3px 0 15px 0px;
+    display: inline-block;
+    font-size:0.8em
+}
+
+/* tarjeta 6*/
+.blog-card6 {
+    border: 1px solid #0a0092;
+    width: 27.5vw;
+    height: 45vh;
+    position: relative;
+    font-family: 'Droid Serif', serif;
+    color:#fff;
+    bottom: 0%;
+    left: 0%;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 3em;
+    box-shadow: 0px 10px 20px -9px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition:all 0.4s;
+    background: url(https://1.bp.blogspot.com/-BtXAeXQr9zE/Upt7sPcTmfI/AAAAAAAAArA/4xZeDJVwLV0/s1600/1378304_537506322998332_1388216729_n.jpg) center no-repeat;
+    background-size: 115%;
+}
+
+.blog-card6 a{ 
+    color:#fff;
+    text-decoration:none;
+    transition:all 0.2s
+}
+.blog-card6 .color-overlay6 {
+    background: rgba(64, 84, 94,0.5);
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+.blog-card6 .gradient-overlay6 {  
+    background-image: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.6) 21%);
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 350px;
+    left: 0;
+    z-index: 15;
+}
+.blog-card6:hover{
+    box-shadow: 0px 18px 20px -9px rgba(0, 10, 30, 0.75);
+}
+.blog-card6:hover .card-info6 {
+    opacity: 1;
+    bottom: 100px;
+}   
+.blog-card6:hover .color-overlay6 {
+    background: rgba(64, 64, 70,0.8);
+}
+.blog-card6:hover .title-content6{
+    margin-top:70px
+}
+.title-content6 {
+    text-align: top;
+    margin: 170px 0 0 0;
+    position: relative;
+    z-index: 20;
+    width: 100%;
+    top: 40%;
+    left: 0;
+    transition:all 0.6s
+}
+
+
+.blog-card6:hover h3:after{
+    animation: changeLetter 0.3s 1 linear;
+    width:80%
+}
+
+.blog-card6 h3,h1 {
+    font-size: 1.3em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: 'Abril Fatface', serif;
+    margin-bottom: 0;
+    display:inline-block;
+}
+.blog-card6 h3 a{  
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);  
+    transition:all 0.2s
+}
+.blog-card6 h3 a:hover{
+    text-shadow: 0px 8px 20px rgba(0, 0, 0, 0.95);
+}
+h3:after {
+    content: " ";
+    display: block; 
+    width: 10%;
+    height: 2px;
+    margin: 20px auto;
+    border: 0;
+    background: #BDA26B;
+    transition:all 0.2s
+}
+
+@keyframes changeLetter {
+    0% {
+    width: 10%;
+    }
+    100% {
+    width: 100%;
+    }
+}
+
+
+.card-info6 {
+    box-sizing: border-box;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    top: 10%;
+    left: 0;
+    margin: 0 auto;
+    padding: 0px 100px 20px -50px;
+    font-style: 16px;
+    line-height: 24px;
+    z-index: 20;
+    opacity: 0;
+    transition: bottom 0.64s, opacity 0.63s cubic-bezier(0.33, 0.66, 0.66, 1);
+}
+
+.card-info6 a{
+    display:block;
+    width:100px;
+    margin:15px auto;
+    background:#fff;
+    color:#444;
+    padding:3px 10px;
+    border-radius:2px;
+    font-size:0.8em
+}
+.card-info6 a:hover{
+    background: #8e7c49;
+    color:#fff;
+}
+.card-info6 a:hover span{
+    filter: brightness(10);
+    opacity:1
+}
+.utility-info6 {
+    position: relative;
+    bottom: 0px;
+    left: 0;
+    z-index: 20;
+    width:100%;
+    text-align:left
+}
+.utility-info6:after{
+    content:" ";
+    background: url(https://rawcdn.githack.com/Nodws/NodPen/ffad95aa5244b4b09a3c7c1508a018959bbedb7e/postItem/licons.svg) center no-repeat;
+    background-size: 30px auto;
+    display:block;
+    opacity: 0.4;
+    position:absolute;
+    bottom:25px;
+    right:15px;
+    width:30px;
+    height:15px
+}
+.utility-info6 a:hover{
+    text-decoration:underline
+}
+.utility-list6 {
+    list-style-type: none;
+    margin: 0 0 10px 20px;
+    padding: 0;
+    width: 100%;
+
+}
+.utility-list6 li {
+    margin: 0 5px 0 0;
+    padding: 3px 0 15px 0px;
+    display: inline-block;
+    font-size:0.8em
+}
+
+/* tarjeta 7*/
+.blog-card7 {
+    border: 1px solid #0a0092;
+    width: 28vw;
+    height: 40vh;
+    position: relative;
+    font-family: 'Droid Serif', serif;
+    color:#fff;
+    transform: translate(-50%,-50%);
+    top: 135px;
+    left: 50%;
+    overflow: hidden;
+    border-radius: 3em;
+    box-shadow: 0px 10px 20px -9px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    transition:all 0.4s;
+    background: url(https://www.laopinionsemanario.com.ar/wp-content/uploads/2020/08/broder-bastos-3-divulgacao-fb_1280x768.jpg);
+    background-size: 115%;
+}
+
+.blog-card7 a{ 
+    color:#fff;
+    text-decoration:none;
+    transition:all 0.2s
+}
+.blog-card7 .color-overlay7 {
+    background: rgba(64, 84, 94,0.5);
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+}
+.blog-card7 .gradient-overlay7 {  
+    background-image: linear-gradient(transparent 0%, rgba(0, 0, 0, 0.6) 21%);
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 350px;
+    left: 0;
+    z-index: 15;
+}
+.blog-card7:hover{
+    box-shadow: 0px 18px 20px -9px rgba(0, 10, 30, 0.75);
+}
+.blog-card7:hover .card-info7 {
+    opacity: 1;
+    bottom: 100px;
+}   
+.blog-card7:hover .color-overlay7 {
+    background: rgba(64, 64, 70,0.8);
+}
+.blog-card7:hover .title-content7{
+    margin-top:70px
+}
+.title-content7 {
+    text-align: top;
+    margin: 170px 0 0 0;
+    position: relative;
+    z-index: 20;
+    width: 100%;
+    top: 50%;
+    left: 0;
+    transition:all 0.6s
+}
+
+
+.blog-card7:hover h3:after{
+    animation: changeLetter 0.3s 1 linear;
+    width:80%
+}
+
+.blog-card7 h3,h1 {
+    font-size: 1.3em;
+    font-weight: 400;
+    letter-spacing: 1px;
+    font-family: 'Abril Fatface', serif;
+    margin-bottom: 0;
+    display:inline-block;
+}
+.blog-card7 h3 a{  
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);  
+    transition:all 0.2s
+}
+.blog-card7 h3 a:hover{
+    text-shadow: 0px 8px 20px rgba(0, 0, 0, 0.95);
+}
+h3:after {
+    content: " ";
+    display: block; 
+    width: 10%;
+    height: 2px;
+    margin: 20px auto;
+    border: 0;
+    background: #BDA26B;
+    transition:all 0.2s
+}
+
+@keyframes changeLetter {
+    0% {
+    width: 10%;
+    }
+    100% {
+    width: 100%;
+    }
+}
+
+
+.card-info7 {
+    box-sizing: border-box;
+    padding: 0;
+    width: 100%;
+    position: absolute;
+    top: 2% ;
+    left: 0;
+    margin: 0 auto;
+    padding: 0px 100px 20px -10px;
+    font-style: 16px;
+    line-height: 24px;
+    z-index: 20;
+    opacity: 0;
+    transition: bottom 0.64s, opacity 0.63s cubic-bezier(0.33, 0.66, 0.66, 1);
+}
+
+.card-info7 a{
+    display:block;
+    width:100px;
+    margin:15px auto;
+    background:#fff;
+    color:#444;
+    padding:3px 10px;
+    border-radius:2px;
+    font-size:0.8em
+}
+.card-info7 a:hover{
+    background: #8e7c49;
+    color:#fff;
+}
+.card-info7 a:hover span{
+    filter: brightness(10);
+    opacity:1
+}
+.utility-info7 {
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    z-index: 20;
+    width:100%;
+    text-align:left
+}
+.utility-info7:after{
+    content:" ";
+    background: url() center no-repeat;
+    background-size: 30px auto;
+    display:block;
+    opacity: 0.4;
+    position:absolute;
+    bottom:25px;
+    right:15px;
+    width:30px;
+    height:15px
+}
+.utility-info7 a:hover{
+    text-decoration:underline
+}
+.utility-list7 {
+    list-style-type: none;
+    margin: 0 0 10px 20px;
+    padding: 0;
+    width: 100%;
+
+}
+.utility-list7 li {
+    margin: 0 5px 0 0;
+    padding: 3px 0 15px 0px;
+    display: inline-block;
+    font-size:0.8em
+}

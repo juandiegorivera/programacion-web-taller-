@@ -1,0 +1,33 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background: rgb(0, 0, 0);
+}
+
+img{
+    width: 100%;
+}
+
+.row{
+    display: flex;
+    padding: 5px;
+}
+
+.column{
+    flex: 25%;
+    padding: 5px;
+}
+
+.column img {
+    margin-top: 5px;
+}
+
+h1{
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    color: white;
+}
