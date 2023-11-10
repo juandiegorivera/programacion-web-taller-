@@ -1,4 +1,10 @@
 body{
-    background: rgb(66, 219, 196);
+    background: linear-gradient(45deg,blue,black,black,blue);
     overflow:scroll;
+}
+
+label, fieldset{
+    -webkit-text-stroke: 1px #001aff;
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
 }
