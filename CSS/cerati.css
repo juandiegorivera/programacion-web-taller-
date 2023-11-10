@@ -8,7 +8,7 @@ body{
     position: relative;
     display: grid;
     width: 97vw;
-    height: 103vh;
+    height: 101vh;
     grid-template-columns:  10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
     grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
     margin-bottom: 1em;
@@ -19,7 +19,7 @@ body{
     position: relative;
     display: grid;
     width: 97vw;
-    height: 135vh;
+    height: 132vh;
     grid-template-columns:  10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
     grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
     margin-bottom: 1em;
