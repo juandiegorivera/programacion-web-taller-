@@ -3,6 +3,12 @@ body{
     color: aliceblue;
 }
 
+.volver{
+    -webkit-text-stroke: 1px rgb(125, 0, 0);
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+}
+
 #primercaja{
     border: 1px solid #5f1919;
     position: relative;

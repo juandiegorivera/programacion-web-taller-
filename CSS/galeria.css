@@ -1,5 +1,12 @@
+
 *{
     box-sizing: border-box;
+}
+
+.volver{
+    -webkit-text-stroke: 0.1px #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 1.5em ;
 }
 
 body{

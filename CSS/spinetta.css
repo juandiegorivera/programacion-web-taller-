@@ -4,6 +4,12 @@ body{
     color: aliceblue;
 }
 
+.volver{
+    -webkit-text-stroke: 0.1px #26ff00;
+    color: rgb(0, 0, 0);
+    font-size: 1.5em;
+}
+
 #primercaja,#segundacaja,#tercercaja,#cuartacaja,#quintacaja{
     border: 1px solid #6fe013;
     position: relative;
@@ -151,6 +157,8 @@ h1{
     background: url(https://bloc.com.ar/wp-content/uploads/2023/05/Edelmiro18.jpg) center no-repeat;
     background-size: 115%;
 }
+
+
 
 .blog-card a{ 
     color:#fff;
