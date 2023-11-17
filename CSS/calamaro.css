@@ -13,7 +13,7 @@ body{
     position: relative;
     display: grid;
     width: 97vw;
-    height: 96vh;
+    height: 94vh;
     grid-template-columns:  10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
     grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
     margin-bottom: 0em;
@@ -24,7 +24,7 @@ body{
     position: relative;
     display: grid;
     width: 97vw;
-    height: 130vh;
+    height: 128vh;
     grid-template-columns:  10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
     grid-template-rows: 10% 10% 10% 10% 10% 10% 10% 10% 10% 10%;
     margin-bottom: 0em;
